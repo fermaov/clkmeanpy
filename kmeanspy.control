@@ -1,0 +1,9 @@
+# kmeanspy extension
+comment = 'Kmeans extension for PostgreSQL'
+default_version = '1.0'
+module_pathname = '$libdir/kmeanspy'
+relocatable = false
+schema = 'clustering'
+requires = 'plpython3u'
+
+
